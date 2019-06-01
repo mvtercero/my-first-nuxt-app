@@ -8,10 +8,5 @@ export default {
     // Must be a number
     return /^\d+$/.test(params.id)
   }
-
-  //  validate(data) {
-  //   // Must be a number
-  //   return /^\d+$/.test(data.params.id)
-  // }
 }
 </script>
