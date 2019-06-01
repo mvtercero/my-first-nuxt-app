@@ -3,9 +3,21 @@
     <div>
       <h1 class="title">My first Nuxt app</h1>
       <nuxt-link to=" /users">Users</nuxt-link>
+      <button @click="goToProducts">Go to products</button>
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  methods: {
+    goToProducts() {
+      this.$router.push('/products')
+    }
+  }
+}
+</script>
+
 <style>
 .container {
   margin: 0 auto;
