@@ -2,6 +2,7 @@
   <section class="container">
     <div>
       <h1 class="title">My first Nuxt app</h1>
+      <nuxt-link to=" /users">Users</nuxt-link>
     </div>
   </section>
 </template>
